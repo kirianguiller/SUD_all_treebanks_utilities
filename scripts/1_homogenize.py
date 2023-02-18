@@ -2,7 +2,7 @@ from glob import glob
 import os
 from pathlib import Path
 import shutil
-
+from conllup.conllup import readConlluFile
 
 PATH_TREEBANKS_SOURCE = Path(__file__).parent.parent / "treebanks"
 PATH_TREEBANKS_TARGET = Path(__file__).parent.parent / "data" / "gold"
@@ -36,3 +36,8 @@ for treebank_name, folder_conll in path_mapping.items():
         path_conll_all_together_dest = PATH_TREEBANKS_ALL_TOGETHER_TARGET / conll_name
         shutil.copyfile(path_conll_src, path_conll_dest)
         shutil.copyfile(path_conll_src, path_conll_all_together_dest)
+
+        # sentences_json = readConlluFile(path_conll_src)
+        # for sentence_json in sentences_json:
+        #     for token in sentence_json["treeJson"]["nodesJson"].values():
+        #         print(token["FORM"])
