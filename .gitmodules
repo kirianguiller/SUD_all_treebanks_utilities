@@ -1,0 +1,21 @@
+[submodule "treebanks/SUD_French-ParisStories"]
+	path = treebanks/SUD_French-ParisStories
+	url = https://github.com/surfacesyntacticud/SUD_French-ParisStories
+[submodule "treebanks/SUD_Zaar-Autogramm"]
+	path = treebanks/SUD_Zaar-Autogramm
+	url = https://github.com/surfacesyntacticud/SUD_Zaar-Autogramm
+[submodule "treebanks/SUD_French-GSD"]
+	path = treebanks/SUD_French-GSD
+	url = https://github.com/surfacesyntacticud/SUD_French-GSD
+[submodule "treebanks/SUD_Tunisian_Arabic-NAxLAT"]
+	path = treebanks/SUD_Tunisian_Arabic-NAxLAT
+	url = https://github.com/surfacesyntacticud/SUD_Tunisian_Arabic-NAxLAT
+[submodule "treebanks/SUD_Chinese-PatentChar"]
+	path = treebanks/SUD_Chinese-PatentChar
+	url = https://github.com/surfacesyntacticud/SUD_Chinese-PatentChar
+[submodule "treebanks/SUD_Beja-NSC"]
+	path = treebanks/SUD_Beja-NSC
+	url = https://github.com/surfacesyntacticud/SUD_Beja-NSC
+[submodule "treebanks/SUD_Naija-NSC"]
+	path = treebanks/SUD_Naija-NSC
+	url = https://github.com/surfacesyntacticud/SUD_Naija-NSC

@@ -1,0 +1,2 @@
+# SUD treebanks utilities
+Utility scripts for all SUD treebanks. This can be used for using all the SUD treebanks at once for some downstream tasks (training and evaluating multilingual parser; testing conllu handling libraries; etc...)
