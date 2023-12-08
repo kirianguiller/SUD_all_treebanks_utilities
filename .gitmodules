@@ -19,3 +19,6 @@
 [submodule "treebanks/SUD_Naija-NSC"]
 	path = treebanks/SUD_Naija-NSC
 	url = https://github.com/surfacesyntacticud/SUD_Naija-NSC
+[submodule "treebanks/mSUD_Chinese-Beginner"]
+	path = treebanks/SUD_Naija-NSC
+	url = https://github.com/surfacesyntacticud/mSUD_Chinese-Beginner

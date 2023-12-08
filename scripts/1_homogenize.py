@@ -19,7 +19,7 @@ path_mapping = {
     "SUD_French-ParisStories": "",
     "SUD_Naija-NSC": "",
     "SUD_Tunisian_Arabic-NAxLAT": "",
-    "SUD_Zaar-Autogramm": "CORPUS",
+    "SUD_Zaar-Autogramm": "",
 }
 
 for treebank_name, folder_conll in path_mapping.items():
